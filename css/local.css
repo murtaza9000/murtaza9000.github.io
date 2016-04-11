@@ -1,22 +1,56 @@
-.menu
-{
-	font-family: Courier;
+ .menu
+{font-family: Courier;
 	color: #2f2f2f;
-	font-size: 28px;
+	font-size: 25px;
 	font-weight: 400;
-	background-color: rgba(255, 255, 255, 0.6);
 	
 }
-div .row .rezpara
+.menu a
+{font-family: Courier;
+	color: #2f2f2f;
+	font-size: 25px;
+	font-weight: 400;
+	
+}
+.rezpara
 {
-	font-family: Courier;
+font-family: Courier;
 	color: #555555;
+	font-size: 20px;
+	font-weight: 400;
+	
+}
+
+.myheading
+{font-family: "Never Let Go";
+	color: #231f20;
+	font-size: 48px;
+	font-weight: 400;
+}
+ .mybg{
+ 
+	background-image: url("../images/bg.jpg");
+ }
+p{
+	font-family: Courier;
+	color: #231f20;
 	font-size: 20px;
 	font-weight: 400;
 }
 
-div .row .myrow{
-margin-right: 51px;
-    margin-left: 60px;
+.myrow{
+   
+    margin-left: 121px;
 
+}
+.col-sm-6, .rezpara
+{margin-top:95px
+}
+
+ .sspan  
+ { 
+	font-family: Courier;
+	color: #231f20;
+	font-size: 20px;
+	font-weight: 400;
 }
