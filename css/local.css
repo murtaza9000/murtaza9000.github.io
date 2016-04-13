@@ -30,6 +30,8 @@ font-family: Courier;
  .mybg{
  
 	background-image: url("../images/bg.jpg");
+	width:100%;
+	
  }
 p{
 	font-family: Courier;
