@@ -31,7 +31,8 @@ font-family: Courier;
  
 	background-image: url("../images/bg.jpg");
 	width:100%;
-	background-size: 100%
+	 background-size: 100% 638px;
+    height: 100%;
 	
  }
 p{
@@ -57,3 +58,5 @@ p{
 	font-size: 20px;
 	font-weight: 400;
 }
+
+@media only screen and (max-width: 640px){ .mybg { background-image: none !important; } }
