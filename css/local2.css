@@ -1,16 +1,32 @@
- .menu
+ .menu , .menu a
 {font-family: Courier;
 	color: #2f2f2f;
 	font-size: 25px;
-	font-weight: 400;
-	
+	font-weight: bolder;
+	text-align: center;
+	width: 800px;
+
 }
-.menu a
-{font-family: Courier;
-	color: #2f2f2f;
-	font-size: 25px;
-	font-weight: 400;
-	
+.gap {
+	height: 100px;
+}
+.center {
+	width: 660px;
+	margin-bottom: 20%;	
+
+}
+
+.textarea {
+	margin-left: 75px
+}
+.padding {
+	padding-left: 13px;
+}
+
+.radiobox {
+	padding-left: 20px;
+	margin-top: -15px;
+	margin-bottom: 40px;
 }
 .rezpara
 {
@@ -26,6 +42,9 @@ font-family: Courier;
 	color: #231f20;
 	font-size: 48px;
 	font-weight: 400;
+	margin-bottom: 25px;
+	padding-left: 0;
+	width: 636px;
 }
  .mybg{
  
@@ -41,7 +60,6 @@ p{
 	font-size: 20px;
 	font-weight: 400;
 }
-
 
 .font {
 	font-family: Courier;
@@ -65,8 +83,8 @@ p{
 @media only screen and (max-width: 640px){ .mybg { background-image: none !important; background-color:#f8f8f8
 } }
 
-.form-group.required .control-label:after {
-  content:"*";color:red;
+.required:after{
+  content:" *";color:red;
 }
 
 .input-block-level {
