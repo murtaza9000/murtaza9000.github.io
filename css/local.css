@@ -16,7 +16,7 @@
 {
 font-family: Courier;
 	color: #555555;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 400;
 	
 }
@@ -38,7 +38,7 @@ font-family: Courier;
 p{
 	font-family: Courier;
 	color: #231f20;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 400;
 }
 
@@ -81,6 +81,17 @@ p{
 	 
 	  background-position: center; 
 	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+   
+	
+ }
+ 
+ .repeatbg{
+ 
+	background-image: url("../images/repeat.jpg");
+	 
+	  background-position: center; 
+	    background-repeat: repeat-y-x;
 	 background-attachment: fixed;
    
 	
