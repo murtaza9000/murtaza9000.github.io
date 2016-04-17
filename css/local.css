@@ -29,10 +29,10 @@ font-family: Courier;
 }
  .mybg{
  
-	background-image: url("../images/bg.jpg");
-	width:100%;
-	 background-size: 100% 638px;
-    height: 100%;
+	/*background-image: url("../images/bg.jpg");*/
+	 
+	 background-size: 100% 656px;
+   
 	
  }
 p{
@@ -75,3 +75,13 @@ p{
   min-height: 28px;      
  
 }
+.fullbg{
+ 
+	background-image: url("../images/fullbg.jpg");
+	 
+	  background-position: center; 
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+   
+	
+ }
