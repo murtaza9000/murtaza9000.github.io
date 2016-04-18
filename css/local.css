@@ -72,9 +72,10 @@ html {
 
 p {
     font-family: Courier;
-    color: #231f20;
+    color: #555555;
     font-size: 20px;
     font-weight: 400;
+    line-height: 1.6;
 }
 
 .font {
@@ -84,7 +85,7 @@ p {
     font-weight: normal;
 }
 
-.col-sm-6, .rezpara {
+.rezpara {
     margin-top: 95px
 }
 
