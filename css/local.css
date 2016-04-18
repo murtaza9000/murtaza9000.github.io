@@ -1,98 +1,136 @@
- .menu
-{font-family: Courier;
-	color: #2f2f2f;
-	font-size: 25px;
-	font-weight: 400;
-	
-}
-.menu a
-{font-family: Courier;
-	color: #2f2f2f;
-	font-size: 25px;
-	font-weight: 400;
-	
-}
-.rezpara
-{
-font-family: Courier;
-	color: #555555;
-	font-size: 18px;
-	font-weight: 400;
-	
+.menu {
+    font-family: Courier;
+    color: #2f2f2f;
+    font-size: 25px;
+    font-weight: 400;
+
 }
 
-.myheading
-{font-family: "Never Let Go";
-	color: #231f20;
-	font-size: 48px;
-	font-weight: 400;
-}
- .mybg{
- 
-	/*background-image: url("../images/bg.jpg");*/
-	 
-	 background-size: 100% 656px;
-   
-	
- }
-p{
-	font-family: Courier;
-	color: #231f20;
-	font-size: 18px;
-	font-weight: 400;
+html {
+    text-transform: uppercase;
 }
 
+.toastcontainerparent {
+    margin-top: 50px;
+}
+
+.weddingparentcontainer{
+    margin-top: 80px;
+}
+
+.partyparentcontainer{
+    margin-top: 80px;
+}
+.accomadationparentcontainer{
+    margin-top: 50px;
+}
+.accomadationcontainer{
+    background-color: white;
+    padding-top: 25px;
+    margin-left: 77px;
+    padding-bottom: 30px;
+    width:87%;
+}
+.toastcontainer {
+    background-color: white;
+    padding: 40px;
+}
+
+
+.menu a {
+    font-family: Courier;
+    color: #2f2f2f;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+.rezpara {
+    font-family: Courier;
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.myheading {
+    font-family: "Never Let Go";
+    color: #231f20;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.mybg {
+
+    /*background-image: url("../images/bg.jpg");*/
+
+    background-size: 100% 656px;
+
+}
+
+p {
+    font-family: Courier;
+    color: #231f20;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 .font {
-	font-family: Courier;
-	color: #555555;
-	font-size: 16px;
-	font-weight: normal;
-}
-.col-sm-6, .rezpara
-{margin-top:95px
+    font-family: Courier;
+    color: #555555;
+    font-size: 16px;
+    font-weight: normal;
 }
 
- .sspan  
- { 
-	font-family: Courier;
-	color: #231f20;
-	font-size: 20px;
-	font-weight: 400;
-	
+.col-sm-6, .rezpara {
+    margin-top: 95px
 }
 
-@media only screen and (max-width: 640px){ .mybg { background-image: none !important; background-color:#f8f8f8
-} }
+.sspan {
+    font-family: Courier;
+    color: #231f20;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+@media only screen and (max-width: 640px) {
+    .mybg {
+        background-image: none !important;
+        background-color: #f8f8f8
+    }
+}
 
 .form-group.required .control-label:after {
-  content:"*";color:red;
+    content: "*";
+    color: red;
 }
 
 .input-block-level {
-  display: block;
-  width: 100%;
-  min-height: 28px;      
- 
+    display: block;
+    width: 100%;
+    min-height: 28px;
+
 }
-.fullbg{
- 
-	background-image: url("../images/fullbg.jpg");
-	 
-	  background-position: center; 
-	 background-repeat: no-repeat;
-	 background-attachment: fixed;
-   
-	
- }
- 
- .repeatbg{
- 
-	background-image: url("../images/repeat.jpg");
-	 
-	  background-position: center; 
-	    background-repeat: repeat-y-x;
-	 background-attachment: fixed;
-   
-	
- }
+
+.fullbg {
+
+    background-image: url("../images/fullbg.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.repeatbg {
+
+    background-image: url("../images/repeat2.jpg");
+
+    background-position: 20% 20%;
+    background-repeat: repeat;
+
+    background-attachment: fixed;
+
+}
